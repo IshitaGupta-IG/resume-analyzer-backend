@@ -67,7 +67,7 @@ def ask(question: str):
     }
 
     payload = {
-        "model": "arcee-ai/trinity-mini:free",
+        "model": "stepfun/step-3.5-flash:free",
         "messages": [
             {"role": "user", "content": question}
         ]
