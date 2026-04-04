@@ -67,7 +67,7 @@ def ask(question: str):
     }
 
     payload = {
-        "model": "stepfun/step-3.5-flash:free",
+        "model": os.getenv("MODEL_NAME"),
         "messages": [
             {"role": "user", "content": question}
         ]
